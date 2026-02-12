@@ -1,0 +1,11 @@
+#loader {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#data {
+  display: none;
+  margin-top: 20px;
+}
