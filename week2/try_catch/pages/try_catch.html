@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form with CAPTCHA (try/catch)</title>
+    <link rel="stylesheet" href="../css/try_catch.css">
+    <script src="../js/try_catch.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> WELCOME </h1>
+        <form id="multiStepForm">
+            <div class="form-group">
+                <label for="input1">Username:</label>
+                <input type="text" id="input1" name="input1" placeholder="Enter username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="input2">Password:</label>
+                <input type="password" id="input2" name="input2" placeholder="Enter password" required>
+            </div>
+
+            <div id="captchaSection" class="hidden">
+                <div class="form-group captcha-group">
+                    <label for="captcha">CAPTCHA:</label>
+                    <div id="captchaDisplay" class="captcha-display"></div>
+                    <input type="text" id="captcha" name="captcha" placeholder="Enter the characters above">
+                </div>
+            </div>
+
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
