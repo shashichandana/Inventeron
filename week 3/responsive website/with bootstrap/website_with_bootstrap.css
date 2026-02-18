@@ -1,0 +1,41 @@
+/* Default (Desktop Layout) */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    background-color: #0d6efd;
+    color: white;
+    font-size: 28px;
+}
+
+.right-section {
+    padding: 60px;
+}
+
+/* 🔥 BIG Layout Change for Mobile */
+@media (max-width: 768px) {
+
+    body {
+        background-color: #0d6efd;
+    }
+
+    .left-section {
+        height: 30vh;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .right-section {
+        background: white;
+        height: 70vh;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .right-section button {
+        width: 100%;
+    }
+}
